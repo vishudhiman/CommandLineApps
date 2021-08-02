@@ -1,0 +1,20 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "Todo cli",
+  "main": "index.js",
+  "preferGlobal": "true",
+  "bin": "./command.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "VISHAL DHIMAN",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "express": "^4.17.1",
+    "inquirer": "^7.1.0",
+    "mongoose": "^5.9.18",
+    "prompt-choices": "^5.0.0"
+  }
+}
